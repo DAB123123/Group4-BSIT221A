@@ -30,10 +30,6 @@
       "Put-in the spinach, turn off the heat, and cover the pot. Let the spinach cook using the remaining heat in the pot."
     ],
   
-    "nutrition": {
-      "calories": 350,
-      "servings": 4
-    },
     "prep_time": "15-20 minutes",
     "cook_time": "45-60 minutes",
     "time": "images/sinigang-time.png"
@@ -66,10 +62,6 @@
       "Put-in the sugar, and salt. Stir and turn the heat off.Serve hot. Share and Enjoy!"
     ],
     
-    "nutrition": {
-      "calories": 450,
-      "servings": 3
-    },
     "prep_time": "10-15 minutes",
     "cook_time": "30-40 minutes",
     "time": "images/adobo_time.png"
@@ -101,10 +93,6 @@
       "Serve with warm rice and your favorite beverage. Enjoy!"
     ],
    
-    "nutrition": {
-      "calories": 500,
-      "servings": 4
-    },
     "prep_time": "10-15 minutes",
     "cook_time": "30-40 minutes",
     "time": "images/sisig_time.png"
@@ -142,10 +130,6 @@
       "Serve hot with shrimp paste. Enjoy!"
     ],
 
-    "nutrition": {
-      "calories": 550,
-      "servings": 4
-    },
     "prep_time": "20-30 minutes",
     "cook_time": "2-3 hours",
     "time": "images/kare-kare_time.png"
@@ -178,10 +162,6 @@
       "Transfer to a serving bowl. Serve hot. Share and enjoy!"
     ],
 
-    "nutrition": {
-      "calories": 500,
-      "servings": 6
-    },
     "prep_time": "15-20 minutes",
     "cook_time": "30-40 minutes",
     "time": "images/tinola_time.png"
@@ -216,10 +196,6 @@
       "Add salt to taste. Transfer to a serving bowl."
     ],
 
-    "nutrition": {
-      "calories": 350,
-      "servings": 4
-    },
     "prep_time": "10-15 minutes",
     "cook_time": "30-40 minutes",
     "time": "images/bicol-express_time.png"
