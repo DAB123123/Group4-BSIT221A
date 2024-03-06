@@ -1,15 +1,14 @@
-import React from "react";
 import Link from "next/link";
 
-function RecipeCard({ name, image }) {
+function RecipeCard({ recipe }) {
   return (
     <div className="column">
       <div className="container">
-        <Link href={`/${name.toLowerCase()}`}>
-          <img src={image} alt={name} className="food" />
+        <Link href={`/recipes/${recipe.id}`}>
+          <img src={recipe.image} alt={recipe.name} className="food" />
         </Link>
       </div>
-      <div className="button">{name}</div>
+      <div className="button">{recipe.name}</div>
     </div>
   );
 }
