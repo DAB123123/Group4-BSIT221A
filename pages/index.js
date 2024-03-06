@@ -1,37 +1,40 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import Header from "./components/header";
-import RecipeCard from "./components/recipe";
+import RecipeCard from "./components/recipecard";
+import recipes from "./components/recipe.json";
 
-const recipes = [
-  { name: "Sinigang", image: "images/sinigang.webp" },
-  { name: "ChickenAdobo", image: "images/chickenadobo.jpg" },
-  { name: "PorkSisig", image: "images/sisig.jpg" },
-  { name: "Kare-Kare", image: "images/kare-kare.jpg" },
-  { name: "Tinola", image: "images/tinola.jpg" },
-  { name: "BicolExpress", image: "images/bicol_express.webp" },
-];
-
-export default function Home() {
+export default function Index() {
   const [searchQuery, setSearchQuery] = useState("");
 
-  const handleSearchInputChange = (event) => {
-    setSearchQuery(event.target.value);
+  const handleSearchInputChange = (e) => {
+    setSearchQuery(e.target.value);
   };
 
   const filteredRecipes = recipes.filter((recipe) =>
     recipe.name.toLowerCase().includes(searchQuery.toLowerCase())
   );
+
   return (
     <>
       <Header
         searchQuery={searchQuery}
         handleSearchInputChange={handleSearchInputChange}
       />
-      <section className="row">
-        {filteredRecipes.map((recipe, index) => (
-          <RecipeCard key={index} name={recipe.name} image={recipe.image} />
+
+      <div className="row">
+        {filteredRecipes.map((recipe) => (
+          <RecipeCard key={recipe.id} recipe={recipe} />
         ))}
-      </section>
+      </div>
     </>
   );
+}
+
+export async function getStaticProps() {
+  const recipe = require("./components/recipe.json");
+  return {
+    props: {
+      recipe: recipe,
+    },
+  };
 }
