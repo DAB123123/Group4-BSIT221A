@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Header from "@/components/header";
+import Head from "next/head";
 import RecipeCard from "@/components/recipecard";
 import recipes from "@/components/recipe.json";
 
@@ -16,6 +17,14 @@ export default function Index() {
 
   return (
     <>
+      <Head>
+        <title>Recipe App</title>
+        <meta
+          name="description"
+          content="A simple recipe app to explore different recipes."
+        />
+        <meta name="theme-color" content="#317EFB" />
+      </Head>
       <Header
         searchQuery={searchQuery}
         handleSearchInputChange={handleSearchInputChange}
