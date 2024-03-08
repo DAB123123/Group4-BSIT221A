@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import Header from "./components/header";
-import RecipeCard from "./components/recipecard";
-import recipes from "./components/recipe.json";
+import Header from "@/components/header";
+import RecipeCard from "@/components/recipecard";
+import recipes from "@/components/recipe.json";
 
 export default function Index() {
   const [searchQuery, setSearchQuery] = useState("");
@@ -31,7 +31,7 @@ export default function Index() {
 }
 
 export async function getStaticProps() {
-  const recipe = require("./components/recipe.json");
+  const recipe = require("../components/recipe.json");
   return {
     props: {
       recipe: recipe,

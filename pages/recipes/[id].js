@@ -1,6 +1,6 @@
 import React from "react";
 import { useRouter } from "next/router";
-import RecipeDetails from "../components/recipedetails";
+import RecipeDetails from "@/components/recipedetails";
 
 const RecipePage = () => {
   const router = useRouter();
@@ -12,4 +12,3 @@ const RecipePage = () => {
 };
 
 export default RecipePage;
-
