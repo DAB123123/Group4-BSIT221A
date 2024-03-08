@@ -27,15 +27,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/bicolexpress": [
+    "/recipes/[id]": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/bicolexpress.js"
-    ],
-    "/sinigang": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/sinigang.js"
+      "static/chunks/pages/recipes/[id].js"
     ]
   },
   "ampFirstPages": []
