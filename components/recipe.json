@@ -29,10 +29,20 @@
       "Add the string beans (and other vegetables if there are any) and simmer for 5 to 8 minutes",
       "Put in the spinach, turn off the heat, and cover the pot. Let the spinach cook using the remaining heat in the pot."
     ],
-  
-    "prep_time": "15-20 minutes",
-    "cook_time": "45-60 minutes",
-    "time": "../images/sinigang-time.png"
+
+    "time_and_servings": {
+      "prep_time": "10-15 minutes",
+      "cook_time": "45minutes/1hr",
+      "servings": "4-6"
+    },
+    "time": "../images/sinigang-time.png",
+    "nutrition": {
+      "calories": "200",
+      "fat": "8g",
+      "carbohydrates": "15g",
+      "protein": "20g",
+      "fiber": "3g"
+    }
   },
   {
     "id": 2,
@@ -61,10 +71,20 @@
       "Add vinegar. Stir and cook for 10 minutes.",
       "Put in the sugar and salt. Stir and turn the heat off. Serve hot. Share and Enjoy!"
     ],
-    
-    "prep_time": "10-15 minutes",
-    "cook_time": "30-40 minutes",
-    "time": "../images/adobo_time.png"
+
+    "time_and_servings": {
+      "prep_time": "10-15 minutes",
+      "cook_time": "30-40 minutes",
+      "servings": "4-6"
+    },
+    "time": "../images/adobo_time.png",
+    "nutrition": {
+      "calories": "350",
+      "fat": "15g",
+      "carbohydrates": "4g",
+      "protein": "30g",
+      "fiber": "2g"
+    }
   },
   {
     "id": 3,
@@ -92,10 +112,20 @@
       "Heat a metal plate (sizzling plate) on a stovetop. Melt the remaining margarine. Transfer the crispy pork sisig onto the metal plate. Let it stay for 30 seconds.",
       "Serve with warm rice and your favorite beverage. Enjoy!"
     ],
-   
-    "prep_time": "10-15 minutes",
-    "cook_time": "30-40 minutes",
-    "time": "../images/sisig_time.png"
+
+    "time_and_servings": {
+      "prep_time": "10-15 minutes",
+      "cook_time": "30-40 minutes",
+      "servings": "4-6"
+    },
+    "time": "../images/sisig_time.png",
+    "nutrition": {
+      "calories": "400",
+      "fat": "25g",
+      "carbohydrates": "15g",
+      "protein": "30g",
+      "fiber": "2g"
+    }
   },
   {
     "id": 4,
@@ -130,9 +160,19 @@
       "Serve hot with shrimp paste. Enjoy!"
     ],
 
-    "prep_time": "20-30 minutes",
-    "cook_time": "2-3 hours",
-    "time": "../images/kare-kare_time.png"
+    "time_and_servings": {
+      "prep_time": "20-30 minutes",
+      "cook_time": "2-3 hours",
+      "servings": "4-6"
+    },
+    "time": "../images/kare-kare_time.png",
+    "nutrition": {
+      "calories": "450",
+      "fat": "30g",
+      "carbohydrates": "20g",
+      "protein": "25g",
+      "fiber": "5g"
+    }
   },
   {
     "id": 5,
@@ -162,9 +202,19 @@
       "Transfer to a serving bowl. Serve hot. Share and enjoy!"
     ],
 
-    "prep_time": "15-20 minutes",
-    "cook_time": "30-40 minutes",
-    "time": "../images/tinola_time.png"
+    "time_and_servings": {
+      "prep_time": "15-20 minutes",
+      "cook_time": "30-40 minutes",
+      "servings": "4-6"
+    },
+    "time": "../images/tinola_time.png",
+    "nutrition": {
+      "calories": "250",
+      "fat": "10g",
+      "carbohydrates": "15g",
+      "protein": "20g",
+      "fiber": "3g"
+    }
   },
   {
     "id": 6,
@@ -196,8 +246,18 @@
       "Add salt to taste. Transfer to a serving bowl."
     ],
 
-    "prep_time": "10-15 minutes",
-    "cook_time": "30-40 minutes",
-    "time": "../images/bicol-express_time.png"
+    "time_and_servings": {
+      "prep_time": "10-15 minutes",
+      "cook_time": "30-40 minutes",
+      "servings": "4-6"
+    },
+    "time": "../images/bicol-express_time.png",
+    "nutrition": {
+      "calories": "350",
+      "fat": "25g",
+      "carbohydrates": "15g",
+      "protein": "20g",
+      "fiber": "3g"
+    }
   }
 ]

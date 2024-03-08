@@ -1,6 +1,8 @@
 import React from "react";
 import recipes from "./recipe.json";
 import { Rating } from "semantic-ui-react";
+import Link from "next/link";
+import { Button } from "semantic-ui-react";
 import "semantic-ui-css/semantic.min.css";
 import styles from "@/styles/recipe.module.scss";
 
@@ -54,6 +56,19 @@ const RecipeDetails = ({ recipe }) => {
               <li key={index}>{step}</li>
             ))}
           </ol>
+          <h1>Nutrition</h1>
+          <p>
+            Calories: {selectedRecipe.nutrition.calories}| Fat:{" "}
+            {selectedRecipe.nutrition.fat}| Carbohydrates:{" "}
+            {selectedRecipe.nutrition.carbohydrates}| Protein:{" "}
+            {selectedRecipe.nutrition.protein}| Fiber:{" "}
+            {selectedRecipe.nutrition.fiber}
+          </p>
+          <Link href="/" passHref>
+            <Button color="yellow" floated="right" size="huge">
+              Back to Home page
+            </Button>
+          </Link>
         </section>
       </main>
     </>
