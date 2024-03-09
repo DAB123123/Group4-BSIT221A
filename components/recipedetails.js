@@ -56,6 +56,7 @@ const RecipeDetails = ({ recipe }) => {
               <li key={index}>{step}</li>
             ))}
           </ol>
+          <img src="../images/nutritionlogo.png" alt="nutritionlogo" />
           <h1>Nutrition</h1>
           <p>
             Calories: {selectedRecipe.nutrition.calories}| Fat:{" "}
